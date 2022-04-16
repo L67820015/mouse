@@ -1,0 +1,120 @@
+/* 去除外边框白边 */
+body {
+    margin: 0;
+    padding: 0;
+}
+/* 置顶按钮 */
+#toTop {
+    display: none;
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+}
+/* div背景*内边距 */
+.other-div {
+    position: relative;
+    background: #1E1D32;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* 标题 */
+.margin-img {
+    margin-bottom: 50px;
+    width: 80vw;
+}
+@media(max-width:991px) {
+    .margin-img {
+        margin-bottom: 50px;
+        width: 95vw;
+    }
+}
+/*********LoadingPage*************/
+#loading {
+    position: fixed;
+    background-color: #1E1D32;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+#loading_bg {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/*
+body {
+  background: #eaecfa;
+}
+*/
+.loading-icon {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
+.loader {
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: helvetica, arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #FFFFFF;
+    letter-spacing: 0.2em;
+}
+.loader::before, .loader::after {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #A8393B;
+    position: absolute;
+    -webkit-animation: load .7s infinite alternate ease-in-out;
+    animation: load .7s infinite alternate ease-in-out;
+}
+.loader::before {
+    top: 0;
+}
+.loader::after {
+    bottom: 0;
+}
+@-webkit-keyframes load {
+    0% {
+        left: 0;
+        height: 30px;
+        width: 15px;
+    }
+    50% {
+        height: 8px;
+        width: 40px;
+    }
+    100% {
+        left: 235px;
+        height: 30px;
+        width: 15px;
+    }
+}
+@keyframes load {
+    0% {
+        left: 0;
+        height: 30px;
+        width: 15px;
+    }
+    50% {
+        height: 8px;
+        width: 40px;
+    }
+    100% {
+        left: 235px;
+        height: 30px;
+        width: 15px;
+    }
+}
+/********************************/

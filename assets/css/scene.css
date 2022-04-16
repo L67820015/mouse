@@ -1,0 +1,125 @@
+/* 父级 */
+#scenes-div {
+/*    position: relative;*/
+    
+        background: #1E1D32;
+}
+/* 递进场景 */
+.scenes {
+    position: sticky;
+    top: 100px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    /*    background-color:#000000;*/
+}
+/*
+#scene4{
+    width: 130%;
+    left: 50vw;
+    top: 30vw;
+    position: relative;
+    
+}
+*/
+#scene5 {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    /*    right: 20vw;*/
+    padding: 5%;
+    width: 60%;
+}
+#scene6 {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    padding: 5%;
+    width: 25%;
+}
+@media(max-width:991px) {
+    #scenes-div {
+        position: relative;
+        top: 100px;
+        margin-bottom: 52vw;
+    }
+    .scenes {
+        position: absolute;
+        top: 0px;
+        height: auto;
+        padding: 0;
+        width: 100%; 
+        
+    }
+    #scene2{
+        top: 500%;
+        animation-name:mymove;
+        animation-delay:3s;
+        animation-duration: 2s;
+        animation-timing-function: 1;
+        animation-fill-mode:forwards
+    }
+    #scene3{
+        top: 500%;
+        animation-name:mymove;
+        animation-delay:5s;
+        animation-duration: 2s;
+        animation-timing-function: 1;
+        animation-fill-mode:forwards
+    }
+    #scene4{
+        top: 500%;
+        animation-name:mymove;
+        animation-delay:7s;
+        animation-duration: 2s;
+        animation-timing-function: 1;
+        animation-fill-mode:forwards
+    }
+    
+    #scene5{
+        position: absolute;
+        top: 10vw;
+/*        left:15vw;*/
+        right:150vw;
+        width: 70vw;
+        animation-name:mymove3;
+        animation-delay:7s;
+        animation-duration: 1s;
+        animation-timing-function: 1;
+        animation-fill-mode:forwards
+    }
+    #scene6{
+        position: absolute;
+        top: 30vw;        
+        right: 140vw;
+        animation-name:mymove4;
+        animation-delay:7s;
+        animation-duration: 1s;
+        animation-timing-function: 1;
+        animation-fill-mode:forwards
+    }
+}
+@keyframes mymove
+{
+	from {top: 200%;}
+	to {top:0%;}
+}
+@keyframes mymove2
+{
+	from {bottom: 200%;}
+	to {bottom:0%;}
+}
+
+@keyframes mymove3
+{
+	from {right: 130vw;}
+	to {right: 15vw;}
+}
+@keyframes mymove4
+{
+	from {right: 130vw;}
+	to {right:  35vw}
+}

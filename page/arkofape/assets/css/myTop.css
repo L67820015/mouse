@@ -1,0 +1,52 @@
+#topNone {
+    margin-bottom: 100px;
+}
+#drinkape-div {
+    background-color: #292845;
+    width: 70vw;
+    color: aliceblue;
+    font-family: 'Roboto', 'Arial';
+    margin: auto;
+    padding: 2vw 5vw;
+}
+#drinkape-div p {
+    line-height: 30px;
+    font-size: 20px;
+}
+#drinkape-div h3 {
+    line-height: 30px;
+}
+.li-img {
+    height: 10px;
+    margin-right: 10px;
+}
+.li-div {
+    margin: 10px 0;
+    font-size: 16px;
+}
+html body{
+    margin: 0;
+    padding: 0;    
+    background-color: #292845;
+}
+
+
+@media(max-width:991px) {
+
+    #topNone {
+        margin-bottom: 70px;
+    }
+    #down-bg {
+        position: sticky;
+        bottom: 0;
+    }    
+    #drinkape-div h1 {
+        font-size: 20px;
+    }
+    #drinkape-div h3 {
+        font-size: 16px;
+    }
+    #drinkape-div {
+        width: 85vw;
+    }
+}

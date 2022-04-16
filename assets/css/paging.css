@@ -1,0 +1,177 @@
+/* 内容背景 */
+.page {
+    background-color: #181728;
+    /*
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+*/
+}
+#but1 {
+    background-color: #292845;
+    border: 2px solid #292845;
+}
+#but2 {
+    background-color: #1E1D32;
+    border: 2px solid #292845;
+}
+#but3 {
+    background-color: #1E1D32;
+    border: 2px solid #292845;
+}
+.paging-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*	padding: 0 50px;*/
+}
+.paging-div div {
+    font-size: calc(15vw / 7);
+    width: 26.3vw;
+}
+.paging-div a {
+    color: aliceblue;
+    text-decoration: none;
+}
+#pag1-info {
+    background-color: #181727;
+    margin: 0px 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#pag1-info dd {
+    text-align: left;
+    margin-left: 15px;
+}
+#page-video {
+    width: 35vw;
+    /*
+    position: relative;
+    right: 5vw;
+    top: 0.1vw;
+*/
+    margin-right: 10px;
+}
+#pag2-info {
+    /*	background-color: #181727;*/
+    /*	margin: 0px 10vw;*/
+    background-color: #181727;
+    margin: 0px 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*	padding: 10px 20px;*/
+}
+#pag2-img {
+    height: 32vw;
+    position: relative;
+    right: 3.2vw;
+}
+#pag2-info dd {
+    text-align: left;
+}
+#pag3-info {
+    background-color: #181727;
+    margin: 0px 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#pag3-img {
+    margin-bottom: 20px;
+    width: 79vw;
+    /*	padding: 20px 0;*/
+}
+.paging-but {
+    height: 5vw;
+    padding-top: 1vw;
+}
+.p-hr {
+    width: 90%;
+}
+@media(max-width:991px) {
+    .p-hr {
+        margin: auto;
+        width: 95%;
+    }
+    .paging-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .paging-div div {
+        margin: auto;
+    }
+    #pag1-info {
+        background-color: #181727;
+        margin: 0px 10vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /*        padding: 10px 20px;*/
+    }
+    #page-video {
+        /*
+        position: relative;
+        top: 0vw;
+        left: 0vw;
+        margin: auto;
+        padding: inherit;
+*/
+        width: 77vw;
+    }
+    #pag1-info dd {
+        text-align: center;
+        margin: 0;
+    }
+    #pag2-info {
+        background-color: #181727;
+        margin: 0px 10vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /*        padding: 10px 20px;*/
+    }
+    #pag2-img {
+        position: relative;
+        height: 53.7vw;
+        right: 0vw;
+        bottom: 1vw;
+    }
+    #pag2-info dd {
+        text-align: center;
+    }
+    #pag3-img {
+        width: 78vw;
+        position: relative;
+        right: 0vw;
+        /*	padding: 20px 0;*/
+    }
+    .paging-but {
+        height: 8vw;
+        padding-top: 2vw;
+    }
+    .paging-but a strong {
+        padding: 0;
+        margin: 0;
+        font-size: 2.5vw;
+    }
+    #but1 {
+        background-color: #292845;
+        width: 78vw;
+    }
+    #but2 {
+        background-color: #1E1D32;
+        width: 78vw;
+    }
+    #but3 {
+        background-color: #1E1D32;
+        width: 78vw;
+    }
+}

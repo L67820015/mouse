@@ -1,0 +1,183 @@
+@charset "UTF-8";
+.buy_wrapper {
+    padding: 110px 20px 20px;
+    width: 100%;
+    height: 900px;
+    background: #1E1D32;
+    box-sizing: border-box;
+}
+.buy_wrapper .buy_content {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+    background: url("../images/buy/bug_bg.png") center/ 100% 100%;
+}
+/*
+.buy_content .buy_nft_visualizer:after {
+    background: #1E1D32;
+    background-image: linear-gradient(rgba(214, 219, 255, 0.89) 1px,transparent 0),linear-gradient(90deg, rgba(214, 219, 255, 0.87) 1px,transparent 0);
+    background-size: 25px 25px,25px 25px;
+    bottom: 0;
+    -webkit-clip-path: polygon(100% 0,90% 100%,0 100%,0 0);
+    clip-path: polygon(100% 0,90% 100%,0 100%,0 0);
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 2;
+}
+.buy_content .buy_nft_visualizer:before {
+    background-color: #635da0;
+    bottom: -1px;
+    -webkit-clip-path: polygon(100% 0,90% 100%,0 100%,0 0);
+    !* clip-path: polygon(100% 0,90% 100%,0 100%,0 0); *!
+    content: "";
+    left: -1px;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    z-index: 1;
+}
+.buy_content .buy_nft_visualizer{
+    width: 40%  ;
+    position: relative;
+    height: 100%;
+}
+.buy_content .buy_nft_action:before {
+    background-color: #182def;
+    bottom: -1px;
+    -webkit-clip-path: polygon(100% 0,100% 100%,0 100%,55px 0);
+    clip-path: polygon(100% 0,100% 100%,0 100%,55px 0);
+    content: "";
+    left: -1px;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    z-index: 1;
+}
+.buy_content .buy_nft_action:after {
+    background-color: #1E1D32;
+    bottom: 0;
+    -webkit-clip-path: polygon(100% 0,100% 100%,0 100%,55px 0);
+    clip-path: polygon(100% 0,100% 100%,0 100%,55px 0);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.buy_content .buy_nft_action {
+    display: flex;
+    width: 60%;
+    margin-left: -40px;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: visible;
+    position: relative;
+    z-index: 10;
+    box-sizing: border-box;
+}
+*/
+.buy_content .buy_nft_visualizer {
+    width: 40%;
+    position: relative;
+}
+.buy_content .buy_nft_visualizer img {
+    width: 100%;
+}
+
+.buy_content .buy_nft_action {
+    position: relative;
+    width: 60%;
+}
+.buy_wrapper button {
+    font-size: 20px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: url("../images/buy/btn_bg.png") center/95% 95% no-repeat;
+}
+
+.buy_wrapper .view_btn {
+    position: absolute;
+    bottom: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    width: 380px;
+    height: 75px;
+    background: url("../images/buy/opensea.jpg") center/95% 95% no-repeat;
+}
+.buy_nft_action .buy_btn{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    width: 300px;
+    height: 75px;
+    background: url("../images/buy/buyBtn.png") center/95% 95% no-repeat;
+}
+
+.buy_content .amount_add {
+    cursor: pointer;
+    width: 30px ;
+    height: 30px;
+    background: url("../images/buy/btn_add.png") center/cover no-repeat;
+}
+
+
+.buy_content .amount_reduce {
+    cursor: pointer;
+    width: 30px ;
+    height: 30px;
+    background: url("../images/buy/btn_reduce.png") center/cover no-repeat;
+}
+
+.buy_content .nft_content {
+    display: block;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.nft_content .action {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.nft_content .price {
+    position: absolute;
+    color: #f40;
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+    bottom: 23%;
+    margin-bottom: 0;
+}
+.nft_content .change_amount {
+    position: absolute;
+    bottom: 9%;
+    right: 20%;
+    display: flex;
+}
+
+.nft_content .change_amount span {
+    font-size: 20px;
+    color: #8C77FC;
+    font-weight: bolder;
+    display: block;
+    margin: 0 10px;
+}

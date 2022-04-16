@@ -1,0 +1,68 @@
+/*页脚*/
+#footer-div {
+    margin: auto;
+    padding: 0;
+    /* 背景图片 */
+    background-image: url("../images/footer-div/down-bg.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* 尺寸 */
+    position: absolute;
+    min-height: 20%;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+/*页脚内logo*/
+#footer-div hr {
+    height: 5px;
+    border: none;
+    border-top: 3px solid #fff;
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    bottom: 5vw;
+    left: 10vw;
+}
+#footer-icon {
+    position: absolute;
+    bottom: 7vw;
+    left: 10vw;
+}
+#footer-icon a img {
+    width: 10vw;
+}
+/*页脚 信息*/
+.footer-info {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    color: #C5D4F5;
+}
+#foot-info-left {
+    position: absolute;
+    bottom: 1vw;
+    left: 10vw;
+}
+#foot-info-right {
+    position: absolute;
+    bottom: 1vw;
+    right: 10vw;
+}
+@media(max-width:991px) {
+    #footer-div hr {
+        position: absolute;
+        bottom: 7vw;
+    }
+    #footer-icon a img {
+        width: 15vw;
+    }
+    #footer-icon {
+        position: absolute;
+        bottom: 10vw;
+        left: 10vw;
+    }
+    .footer-info {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,130 @@
+#info {
+   position: relative;
+}
+
+.center-img{
+    text-align: center;
+}
+
+#show-demo{
+    z-index: 1;
+    position: absolute;
+    right: 25%;
+    top: 35%;
+}
+
+.rotation-div{
+    text-align: center;
+}
+
+.rotation-chart{
+    margin: 20px;
+}
+
+.rotation-left{
+    position: absolute;
+    top: 55%;
+    left: 15%;
+}
+.rotation-right{
+    position: absolute;
+    top: 55%;
+    right: 15%;
+}
+#info-title dl{
+	position: relative;
+	left: 5%;
+}
+
+#info-title dt{
+	margin-bottom: 20px;
+}
+#info-title img{
+	height: 70px;
+}
+.info-2027{
+	color:#A8B7DA;
+	font-size: calc(10vw / 7.5);
+    font-family: 'Roboto', 'Arial';
+}
+.info-p{
+	color:#A8B7DA;
+	font-size: calc(10vw / 7.5);
+    font-family: 'Roboto', 'Arial';
+}
+.flex-div{
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items:center;
+	padding: 0 5vw;
+}
+.flex-div div{
+    margin: 0 3vw;
+}
+
+.info-right{	
+	width: 30vw;
+}
+#info2027{
+    width: 30vw;
+    color:#95A2C3;
+    font-family: 'Roboto', 'Arial';
+    font-size: calc(11vw / 7.5);
+}
+#img2027{
+    width: 20vw;
+    margin-right: 55px;
+}
+#video{
+    width: 35vw;
+    position: relative;
+    left: 30px;
+}
+
+@media(max-width:991px){
+	.flex-div{
+	    display: flex;
+	    flex-direction: column;
+	    justify-content:space-around;
+	    align-items:center;
+	    padding: 0 5vw;
+	}
+	.info-right{
+		width: 75vw;
+	}
+	.info-2027{
+	    color:#A8B7DA;
+	    font-size: calc(20vw / 7.5);
+        line-height: 25px;
+        width: 80vw;
+        font-family: 'Roboto', 'Arial';
+	}
+	.info-p{
+	    color:#A8B7DA;
+	    font-size: calc(20vw / 7.5);
+        font-family: 'Roboto', 'Arial';
+	}
+    #video{
+        width: 69vw;
+        position: relative;
+        left: 0vw
+    }
+    #info2027{
+        width: 70vw;
+        color:#95A2C3;
+        font-family: 'Roboto', 'Arial';
+        font-size: calc(20vw / 7.5);
+        margin: 1vw 4vw;
+    }
+    #img2027{
+        width: 30vw;
+        position: relative;
+        left: 35px;
+    }
+    #div2027{
+        position: relative;
+        left: 5vw;
+    }
+
+}
